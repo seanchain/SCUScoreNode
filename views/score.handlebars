@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col s10 offset-s1">
+  <table class="centered bordered">
+    <thead>
+      <th>课程号</th>
+      <th>课序号</th>
+      <th>课程名</th>
+      <th>学分</th>
+      <th>课程属性</th>
+      <th>成绩</th>
+    </thead>
+    <tbody>
+      {{#each obj}}
+        <tr>
+          <td>{{this.kch}}</td>
+          <td>{{this.kxh}}</td>
+          <td>{{this.kcm}}</td>
+          <td>{{this.xf}}</td>
+          <td>{{this.kcsx}}</td>
+          <td>{{this.cj}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+</div>

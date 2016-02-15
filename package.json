@@ -1,0 +1,21 @@
+{
+  "name": "jwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "sudo nodemon app.js"
+  },
+  "author": "Sean Chain",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.69.0"
+  }
+}
